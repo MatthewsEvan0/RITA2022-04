@@ -1,0 +1,120 @@
+/* Start Banner Image */
+.banner {
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+  /* transform: translateY(-185px);  banner2 */
+  /* transform: translateY(-650px);  banner3 */
+  transform: translateY(-550px);  /* banner4 */
+}
+/* End Banner Image */
+
+/* Start BANNER CAPTIONS */
+
+#banner-caption-tl {
+  color: #fff;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+#banner-caption-br {
+  color: #fff;
+  position: absolute;
+  bottom: 50px;
+  right: 30px;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+#banner-caption-brs {
+  color: #fff;
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  font-size: 20px;
+  font-weight: lighter;
+  font-style: italic;
+}
+/* End BANNER CAPTIONS */
+
+
+/* Start MAIN CONTENT - MISSION STATEMENT */
+.mission {
+  font-size: 150%;
+  width: 100%;
+  margin: 2em 0;
+  text-align: center;
+
+  /* Leaving a light grey line to seperate content */
+  padding-bottom: 2em;
+  border-bottom: .5px solid lightgrey;
+}
+
+.mission h2 {
+  font-size: 150%;
+  margin-bottom: 1em;
+}
+
+.mission p {
+  padding: 0 20%;
+}
+
+/* End MAIN CONTENT - MISSION STATEMENT */
+
+
+/* Start MAIN CONTENT - STATS */
+.stats {
+  font-size: 150%;
+  width: 100%;
+  margin: 2em 0;
+  text-align: center;
+
+  padding-bottom: 2em;
+}
+
+.stats h2 {
+  font-size: 150%;
+  margin-bottom: 1em;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2em;
+}
+
+.stats-stat h3 {
+  color: #ff4b35;
+  font-size: 400%;
+  font-weight: normal;
+  text-shadow: 0 0 3px #951204;
+}
+
+.stats-stat h4 {
+  font-size: 100%;
+  margin: .5em 4em;
+}
+
+.stats-stat p {
+  margin: .5em 4em;
+}
+
+.stats-stat a {
+  color: #cb2a22;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.stats-stat a:hover {
+  color: #951204;
+}
+
+/* End MAIN CONTENT - STATS */
