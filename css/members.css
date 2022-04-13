@@ -7,7 +7,7 @@
 
 .banner img {
   width: 100%;
-  transform: translateY(-750px);
+  transform: translateY(-1150px);
 }
 /* End Banner Image */
 
@@ -35,7 +35,7 @@ main section h3 {
 }
 
 main section p {
-  padding: .1em 20%;
+  padding: .1em 0;
 }
 
 .last-section {
@@ -109,6 +109,7 @@ main section p {
 .content-ops-4 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 20px;
 }
 
 .content-ops-4 .content-title {

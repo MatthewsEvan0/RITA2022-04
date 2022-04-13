@@ -7,7 +7,7 @@
 
 .banner img {
   width: 100%;
-  transform: translateY(-750px);
+  transform: translateY(-553px);
 }
 /* End Banner Image */
 
@@ -35,7 +35,7 @@ main section h3 {
 }
 
 main section p {
-  padding: .1em 20%;
+  padding: .1em 0;
 }
 
 .last-section {

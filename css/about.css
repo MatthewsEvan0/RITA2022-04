@@ -1,13 +1,7 @@
 /* Start Banner Image */
-.banner {
-  width: 100%;
-  height: 400px;
-  overflow: hidden;
-}
-
 .banner img {
   width: 100%;
-  transform: translateY(-250px);
+  transform: translateY(-650px);
 }
 /* End Banner Image */
 
